@@ -55,14 +55,14 @@
 
 
 
-| BenchMark        | Mode | APUS-xDAN-4.0(MoE) | Mixtral-8x7B(MoE) |  Llama2-70B | Grok-1 |
+| BenchMark        | Mode | APUS-xDAN-4.0(MoE) | Mixtral-8x7B(MoE) |  Llama2-70B | Grok-1（MoE） |
 |-----------------|------|-----------------|--------------|-------------|-------------------|
 | Total Params   |  GEN   |      134B         |     12B      |     70B     |       314B         |
 | Active Params   |  GEN   |      60B         |     12B      |     70B     |       78.5B         |
-| MMLU            | PPL  | 75.1            | 71.3         | 69.7        | 73.0             |
+| MMLU            | PPL  | **75.1**            | 71.3         | 69.7        | 73.0             |
 | BIG-Bench-Hard  | GEN  | 66.4            | 67.1         | 64.9        | 71.7              | 
-| GSM-8K          | GEN  | 79.2           | 65.7         | 63.4        | 62.9              |
-| MATH            | GEN  | 29.5         | 22.7         | 12.0        | 23.9              | 
+| GSM-8K          | GEN  | **79.2**         | 65.7         | 63.4        | 62.9              |
+| MATH            | GEN  | **29.5**         | 22.7         | 12.0        | 23.9              | 
 
 # ✨ Resources
 
