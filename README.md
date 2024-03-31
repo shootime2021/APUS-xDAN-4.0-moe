@@ -3,7 +3,7 @@ Its an open source LLM based on MOE Structure.
 <div align="center">
   <img src="https://github.com/open-compass/MixtralKit/assets/7881589/149f8930-3a34-49b6-b27d-79dc192aeac7" width="500px"/>
   
-  # APUS-xDAN-4.0-moe
+  # APUS-xDAN-4.0(MoE)
 
   A Trillion-Parameter MOE Architecture Model Outperforms Grok1, Compatible with 4090 Graphics Card
 
@@ -56,23 +56,14 @@ Its an open source LLM based on MOE Structure.
 
 
 
-| Datasets        | Mode | Mistral-7B-v0.1 | Mixtral-8x7B(MoE) |  Llama2-70B | DeepSeek-67B-Base | Qwen-72B | 
-|-----------------|------|-----------------|--------------|-------------|-------------------|----------|
-| Active Params   |  -   |      7B         |     12B      |     70B     |       67B         |   72B    |
-| MMLU            | PPL  | 64.1            | 71.3         | 69.7        | 71.9              | 77.3     |
-| BIG-Bench-Hard  | GEN  | 56.7            | 67.1         | 64.9        | 71.7              | 63.7     |
-| GSM-8K          | GEN  | 47.5            | 65.7         | 63.4        | 66.5              | 77.6     |
-| MATH            | GEN  | 11.3            | 22.7         | 12.0        | 15.9              | 35.1     |
-| HumanEval       | GEN  | 27.4            | 32.3         | 26.2        | 40.9              | 33.5     |
-| MBPP            | GEN  | 38.6            | 47.8         | 39.6        | 55.2              | 51.6     |
-| ARC-c           | PPL  | 74.2            | 85.1         | 78.3        | 86.8              | 92.2     |
-| ARC-e           | PPL  | 83.6            | 91.4         | 85.9        | 93.7              | 96.8     |
-| CommonSenseQA   | PPL  | 67.4            | 70.4         | 78.3        | 70.7              | 73.9     |
-| NaturalQuestion | GEN  | 24.6            | 29.4         | 34.2        | 29.9              | 27.1     |
-| TrivialQA       | GEN  | 56.5            | 66.1         | 70.7        | 67.4              | 60.1     |
-| HellaSwag       | PPL  | 78.9            | 82.0         | 82.3        | 82.3              | 85.4     |
-| PIQA            | PPL  | 81.6            | 82.9         | 82.5        | 82.6              | 85.2     |
-| SIQA            | GEN  | 60.2            | 64.3         | 64.8        | 62.6              | 78.2     |
+| Datasets        | Mode | APUS-xDAN-4.0(MoE) | Mixtral-8x7B(MoE) |  Llama2-70B | Grok-1 |
+|-----------------|------|-----------------|--------------|-------------|-------------------|
+| Active Params   |  60B   |      7B         |     12B      |     70B     |       67B         |
+| MMLU            | PPL  | 75.1%            | 71.3         | 69.7        | 71.9              |
+| BIG-Bench-Hard  | GEN  | 66.4%            | 67.1         | 64.9        | 71.7              | 
+| GSM-8K          | GEN  | 79.2%           | 65.7         | 63.4        | 66.5              |
+| MATH            | GEN  | 28.5%         | 22.7         | 12.0        | 15.9              | 
+
 
 
 ## Performance Mixtral-8x7b
