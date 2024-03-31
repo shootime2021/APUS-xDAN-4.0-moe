@@ -50,7 +50,7 @@ Its an open source LLM based on MOE Structure.
 
 ## Comparison with Other Models
 
-- All data generated from [xDAN-APUS4.0]([https://github.com/open-compass/opencompass](https://github.com/shootime2021/APUS-xDAN-4.0-moe))
+- All data generated from [xDAN-APUS4.0]([https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE))
 
 > Performances generated from different evaluation toolkits are different due to the prompts, settings and implementation details.
 
@@ -66,10 +66,6 @@ Its an open source LLM based on MOE Structure.
 | MATH            | GEN  | 29.5         | 22.7         | 12.0        | 23.9              | 
 
 # ✨ Resources
-
-## Blog
-- [MoE Blog from Hugging Face](https://huggingface.co/blog/moe)
-- [Enhanced MoE Parallelism, Open-source MoE Model Training Can Be 9 Times More Efficient](https://www.hpc-ai.tech/blog/enhanced-moe-parallelism-open-source-moe-model-training-can-be-9-times-more-efficient)
 
 ## Deployment
 
@@ -89,7 +85,7 @@ We plot the architecture as the following:
 
 ## Hugging Face Format
 
-- [Chat Model]([https://huggingface.co/mistralai/Mistral-7B-v0.1](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE))
+- [Chat Model](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
 
 ## Raw Format
 
@@ -97,9 +93,9 @@ You can download the checkpoints by magnet or Hugging Face
 
 ### Download via HF
 
-- [mixtral-8x7b-32kseqlen](https://huggingface.co/someone13574/mixtral-8x7b-32kseqlen)
+- [mixtral-8x7b-32kseqlen](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
 
-> If you are unable to access Hugging Face, please try [hf-mirror](https://hf-mirror.com/someone13574/mixtral-8x7b-32kseqlen)
+> If you are unable to access Hugging Face, please try [hf-mirror](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
 
 
 ```bash
