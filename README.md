@@ -39,14 +39,18 @@ Its an open source LLM based on MOE Structure.
 > </div>
 
 
+## News 
 
+- 🙌 03-31 APUS-xDAN-4.0(MOE) Open Source Model, quantized on  "IQ-Quantized Tech" in  1.5-bit, 2-bit, and 4-bit, optimized to run on consumer-grade 4090 graphics cards.
+
+  
 
 
 # 📊 Performance
 
 ## Comparison with Other Models
 
-- All data generated from [OpenCompass](https://github.com/open-compass/opencompass)
+- All data generated from [xDAN-APUS4.0]([https://github.com/open-compass/opencompass](https://github.com/shootime2021/APUS-xDAN-4.0-moe))
 
 > Performances generated from different evaluation toolkits are different due to the prompts, settings and implementation details.
 
@@ -274,83 +278,14 @@ int main()
 
 ```
 
-
-# 🏗️ Evaluation
-
-## Step-1: Setup OpenCompass
-
-- Clone and Install OpenCompass
-
-```bash
-# assume you have already create the conda env named mixtralkit 
-conda activate mixtralkit
-
-git clone https://github.com/open-compass/opencompass opencompass
-cd opencompass
-
-pip install -e .
-```
-
-- Prepare Evaluation Dataset
-
-```bash
-# Download dataset to data/ folder
-wget https://github.com/open-compass/opencompass/releases/download/0.1.8.rc1/OpenCompassData-core-20231110.zip
-unzip OpenCompassData-core-20231110.zip
-```
-
-> If you need to evaluate the **humaneval**, please go to [Installation Guide](https://opencompass.readthedocs.io/en/latest/get_started/installation.html) for more information
-
-
-## Step-2: Pre-pare evaluation config and weights
-
-```bash
-cd opencompass/
-# link the example config into opencompass
-ln -s path/to/MixtralKit/playground playground
-
-# link the model weights into opencompass
-mkdir -p ./models/mixtral/
-ln -s path/to/checkpoints_folder/ ./models/mixtral/mixtral-8x7b-32kseqlen
-```
-
-Currently, you should have the files structure like:
-
-```bash
-
-opencompass/
-├── configs
-│   ├── .....
-│   └── .....
-├── models
-│   └── mixtral
-│       └── mixtral-8x7b-32kseqlen
-├── data/
-├── playground
-│   └── eval_mixtral.py
-│── ......
-```
-
-
-## Step-3: Run evaluation experiments
-
-```bash
-HF_EVALUATE_OFFLINE=1 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python run.py playground/eval_mixtral.py
-```
-
-# 🤝 Acknowledgement
-
-- [llama-mistral](https://github.com/dzhulgakov/llama-mistral)
-- [llama](https://github.com/facebookresearch/llama)
-
 # 🖊️ Citation
 
 
 ```latex
 @misc{2023opencompass,
-    title={OpenCompass: A Universal Evaluation Platform for Foundation Models},
-    author={OpenCompass Contributors},
-    howpublished = {\url{https://github.com/open-compass/opencompass}},
+    title={xDAN-APUS4.0: High Performance Alignment Model Trainer.},
+    author={xDAN-APUS4.0 Contributors},
+    howpublished = {\url{https://github.com/shootime2021/APUS-xDAN-4.0-moe}},
     year={2023}
 }
 ```
