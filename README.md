@@ -68,7 +68,7 @@ Its an open source LLM based on MOE Structure.
 # ✨ Resources
 
 ## Deployment
-
+- [x] [Inference with llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [x] [Inference with vLLM](https://github.com/vllm-project/vllm)
 
 # 📖 Model Architecture
