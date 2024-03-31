@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://github.com/shootime2021/APUS-xDAN-4.0-moe/assets/75604726/451d9e3b-8a42-4ee2-9765-cc8c4e1da6fc" width="500px"/>
+  <img src="https://github.com/shootime2021/APUS-xDAN-4.0-moe/assets/75604726/d32dd5e3-b901-49c7-aa35-067d6df91bce" width="500px"/>
   
   # APUS-xDAN-4.0(MoE)
 
