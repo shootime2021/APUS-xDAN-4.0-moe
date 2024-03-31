@@ -1,6 +1,6 @@
- 
+
 <div align="center">
-  <img src="https://github.com/open-compass/MixtralKit/assets/7881589/149f8930-3a34-49b6-b27d-79dc192aeac7" width="500px"/>
+  <img src="https://github.com/shootime2021/APUS-xDAN-4.0-moe/assets/75604726/451d9e3b-8a42-4ee2-9765-cc8c4e1da6fc" width="500px"/>
   
   # APUS-xDAN-4.0(MoE)
 
