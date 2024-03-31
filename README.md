@@ -93,7 +93,7 @@ You can download the checkpoints by magnet or Hugging Face
 
 ### Download via HF
 
-- [mixtral-8x7b-32kseqlen](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
+- [APUS-xDAN-4.0-MOE](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
 
 > If you are unable to access Hugging Face, please try [hf-mirror](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
 
@@ -111,7 +111,7 @@ cd APUS-xDAN-4.0-MOE/
 
 ## Text Completion 
 ```bash
-./main -m xDAN-L2-moe-34b-0323-v2.1.iq1_s.gguf   --n-gpu-layers 99 \
+./main -m APUS-xDAN-4.0-MOE.iq1_s.gguf   --n-gpu-layers 99 \
 --prompt "You are a helpful assistant " --chatml \
 --interactive \
 --temp 0.7 \
