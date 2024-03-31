@@ -49,7 +49,7 @@
 
 ## Comparison with Other Models
 
-- All data generated from [xDAN-APUS4.0]([https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE))
+- Alignment Data By xDAN-AI & APUS. [xDAN-APUS4.0]([https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE))
 
 > Performances generated from different evaluation toolkits are different due to the prompts, settings and implementation details.
 
