@@ -30,7 +30,7 @@ Its an open source LLM based on MOE Structure.
 > </b>
 > <br>
 > <b>
-> 🤗 This a high-performance MOE model whose Math(GSM8k_Cot:79%), Reasoning(MMLU:75%) surpasses Grok1, Mixtral, LLaMA-70b.</a>!
+> 🤗 This a high-performance MOE model whose Math(GSM8k_Cot:79%), Reasoning(MMLU:75%)</a>!
 > </b>
 > <br>
 > <b>
