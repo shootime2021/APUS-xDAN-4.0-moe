@@ -50,7 +50,7 @@
 
 ## Comparison with Other Models
 
-- Alignment By [xDAN-APUS4.0]([https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE))
+- Alignment By [xDAN-APUS4.0]([https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
 
 > Performances generated from different evaluation toolkits are different due to the prompts, settings and implementation details.
 
