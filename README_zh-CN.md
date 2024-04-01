@@ -2,7 +2,7 @@
   <img src="https://github.com/shootime2021/APUS-xDAN-4.0-moe/assets/75604726/d32dd5e3-b901-49c7-aa35-067d6df91bce" width="500px"/>
 APUS-xDAN-4.0(MoE)
 一款万亿参数MoE架构模型，性能超越Grok1，兼容4090显卡
-
+<div align="center">
 <a href="#-performance">📊性能 </a> •
 <a href="#-resources">✨资源 </a> •
 <a href="#-model-architecture">📖架构 </a> •
