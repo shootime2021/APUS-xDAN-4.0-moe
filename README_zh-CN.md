@@ -25,15 +25,15 @@
 > [!Important]
 > <div align="center">
 > <b>
-> 📢 Welcome to the First High-Performance Trillion-Parameter MOE Architecture LLM trained jointly by xDAN and APUS. 📢
+> 📢 欢迎来到全球首个高性能千亿MoE开源大模型,来自xDAN &APUS联合训练! 📢
 > </b>
 > <br>
 > <b>
-> 🤗 This a high-performance MOE model whose Math(GSM8k_Cot:79%), Reasoning(MMLU:75%)</a>!
+> 🤗 超强数学能力 & 推理分析能力 (GSM8k_Cot:79%) (MMLU:73.1%)</a>!
 > </b>
 > <br>
 > <b>
-> 🙏 Feel free to use according to the  inference code.
+> 🙏 请遵循开源协议自由使用.
 > </b>
 > </div>
 
