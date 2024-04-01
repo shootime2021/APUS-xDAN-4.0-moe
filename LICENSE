@@ -173,6 +173,9 @@
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
+   10. Model Declaration:
+      This open-source release is an enhanced large model that has undergone further pre-training based on the Yi series base models,     extending it to the "moe" model with a high-performance centi-billion parameter architecture for both Chinese and English. We express our gratitude and adhere to the Yi Series Models Community License Agreement. This model is released under the Apache License 2.0 and is freely available for use by the open-source community.
+
    END OF TERMS AND CONDITIONS
 
    APPENDIX: How to apply the Apache License to your work.
@@ -186,7 +189,6 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
