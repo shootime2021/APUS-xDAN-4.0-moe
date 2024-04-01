@@ -59,12 +59,12 @@
 
 | BenchMark        | Mode | APUS-xDAN-4.0(MoE) | Mixtral-8x7B(MoE) |  Llama2-70B | Grok-1（MoE） |
 |-----------------|------|-----------------|--------------|-------------|-------------------|
-| Total Params   |  GEN   |      134B         |     12B      |     70B     |       314B         |
-| Active Params   |  GEN   |      60B         |     12B      |     70B     |       78.5B         |
-| MMLU            | PPL  | **73.1**            | 71.3         | 69.7        | 73.0             |
-| BIG-Bench-Hard  | GEN  | 66.4            | 67.1         | 64.9        | 71.7              | 
-| GSM-8K          | GEN  | **79.2**         | 65.7         | 63.4        | 62.9              |
-| MATH            | GEN  | **29.5**         | 22.7         | 12.0        | 23.9              | 
+| Total Params 总参数  |  GEN   |      134B         |     12B      |     70B     |       314B         |
+| Active Params 激活参数  |  GEN   |      60B         |     12B      |     70B     |       78.5B         |
+| MMLU 推理分析           | PPL  | **73.1**            | 71.3         | 69.7        | 73.0             |
+| BIG-Bench-Hard 多学科任务  | GEN  | 66.4            | 67.1         | 64.9        | 71.7              | 
+| GSM-8K K12数学         | GEN  | **79.2**         | 65.7         | 63.4        | 62.9              |
+| MATH   数学         | GEN  | **29.5**         | 22.7         | 12.0        | 23.9              | 
 
 # ✨ Resources
 
