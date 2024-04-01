@@ -75,9 +75,9 @@
 >  The APUS-xDAN-4.0(MoE) model is mainly composed of 32 identical MoEtransformer blocks. The main difference between the MoEtransformer block and the ordinary transformer block is that the FFN layer is replaced by the **MoE FFN** layer. In the MoE FFN layer, the tensor first goes through a gate layer to calculate the scores of each expert, and then selects the top-k experts from the 8 experts based on the expert scores. The tensor is aggregated through the outputs of the top-k experts, thereby obtaining the final output of the MoE FFN layer. Each expert consists of 3 linear layers. It is worth noting that all Norm Layers of Mixtral MoE also use RMSNorm, which is the same as LLama. In the attention layer, the QKV matrix in the Mixtral MoE has a Q matrix shape of (4096,4096) and K and V matrix shapes of (4096,1024).
 
 We plot the architecture as the following:
-
+ 
 <div align="center">
-  <img src="https://github.com/shootime2021/APUS-xDAN-4.0-moe/assets/75604726/b8f959dd-c387-46ef-9e30-304d99c42f96" width="800px"/>
+  <img src="https://https://github.com/shootime2021/APUS-xDAN-4.0-moe/assets/75604726/19977d6e-d2f4-46ed-9964-95dbfd1d695e" width="800px"/>
 </div>
 
 # 📂 Model Weights
