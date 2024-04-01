@@ -3,8 +3,9 @@
   <img src="https://github.com/shootime2021/APUS-xDAN-4.0-moe/assets/75604726/d32dd5e3-b901-49c7-aa35-067d6df91bce" width="500px"/>
   
   # APUS-xDAN-4.0(MoE)
+  #  首个千亿MoE架构大模型 数学推理能力 超越Grok-1！ 正式开源！ 
 
-  首个千亿MoE架构大模型 数学推理能力 超越Grok-1！ 正式开源！ 
+ 
 
   <a href="#-performance">📊Performance </a> •
   <a href="#-resources">✨Resources </a> •
