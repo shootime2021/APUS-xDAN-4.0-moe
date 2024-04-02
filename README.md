@@ -39,8 +39,8 @@
 
 
 ## News 
-
-- 🙌 04-01 APUS-xDAN-4.0(MOE) The model files link will be released soon. Stay tuned for more details!
+- 🙌 04-02 APUS-xDAN-4.0(MOE) Stay tuned for the uploading weights!  https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE
+- 🙌 04-01 APUS-xDAN-4.0(MOE) The model files link will be released soon. 
 - 🙌 03-31 APUS-xDAN-4.0(MOE) Open Source Model, quantized on  "IQ-Quantized Tech" in  1.5-bit, 2-bit, and 4-bit, optimized to run on consumer-grade 4090 graphics cards.
 
   
