@@ -41,9 +41,9 @@
 
 
 ## News 
-
-- 🙌 04-01 APUS-xDAN-4.0(MOE) The model files link will be released soon. Stay tuned for more details!
-- 🙌 03-31 APUS-xDAN-4.0(MOE) Open Source Model, quantized on  "IQ-Quantized Tech" in  1.5-bit, 2-bit, and 4-bit, optimized to run on consumer-grade 4090 graphics cards.
+- 🙌 04-03 模型链接更新! [https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE]
+- 🙌 04-01 APUS-xDAN-4.0(MOE) 情景等待！
+- 🙌 03-31 APUS-xDAN-4.0(MOE) 首个中英文千亿MoE高性能模型开源, 可以落地到4090消费级显卡运行。
 
   
 
@@ -60,7 +60,7 @@
 
 | BenchMark        | Mode | APUS-xDAN-4.0(MoE) | Mixtral-8x7B(MoE) |  Llama2-70B | Grok-1（MoE） |
 |-----------------|------|-----------------|--------------|-------------|-------------------|
-| Total Params 总参数  |  GEN   |      134B         |     12B      |     70B     |       314B         |
+| Total Params 总参数  |  GEN   |      136B         |     12B      |     70B     |       314B         |
 | Active Params 激活参数  |  GEN   |      60B         |     12B      |     70B     |       78.5B         |
 | MMLU 推理分析           | PPL  | **73.1**            | 71.3         | 69.7        | 73.0             |
 | BIG-Bench-Hard 多学科任务  | GEN  | 66.4            | 67.1         | 64.9        | 71.7              | 
@@ -68,6 +68,12 @@
 | MATH   数学         | GEN  | **29.5**         | 22.7         | 12.0        | 23.9              | 
 
 # ✨ Resources
+| Model       | Quantized | Size   | Context     | Hardware Requirement     |
+|-------------|-----------|--------|--------------------------| --------------------------|
+| APUS-xDAN4.0-MoE-0402.Q2_K.gguf       | Q2_K        | 39G  | 32k | 2x24G GPU memory |
+| APUS-xDAN4.0-MoE-0402.IQ3_XXS.gguf      | IQ3_XXS        | 41G | 32k | 2x24G GPU memory |
+| APUS-xDAN4.0-MoE-0402.Q3_K_M_Matrix.gguf      | Q3_K_M        | 51G | 32k | 2x24G GPU memory |
+| APUS-xDAN4.0-MoE-0402.Q4_K_M.gguf | Q4_K_M       | 64G  | 32k | 3x24G GPU memory |
 
 ## Deployment
 - [x] [Inference with llama.cpp](https://github.com/ggerganov/llama.cpp)
@@ -87,7 +93,7 @@ We plot the architecture as the following:
 
 ## Hugging Face Format
 
-- [Chat Model](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
+- [Downlowd Model](https://huggingface.co/xDAN-AI/APUS-xDAN-4.0-MOE)
 
 ## Raw Format
 
@@ -113,8 +119,8 @@ cd APUS-xDAN-4.0-MOE/
 
 ## Text Completion 
 ```bash
-./main -m APUS-xDAN-4.0-MOE.iq1_s.gguf   --n-gpu-layers 99 \
---prompt "You are a helpful assistant " --chatml \
+./main -m APUS-xDAN4.0-MoE-0402.Q2_K.gguf   --n-gpu-layers 99 \
+--prompt "You are a helpful assistant named APUS-xDAN4.0 MoE. " --chatml \
 --interactive \
 --temp 0.7 \
 --ctx-size 4096
